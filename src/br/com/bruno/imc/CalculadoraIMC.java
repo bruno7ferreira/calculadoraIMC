@@ -7,9 +7,13 @@ public class CalculadoraIMC extends JDialog {
     private JPanel contentPane;
     private JButton buttonCalcular;
     private JButton buttonLimpar;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JFormattedTextField formattedTextField1;
+    private JTextField textFieldAltura;
+    private JTextField textFieldPeso;
+    private JFormattedTextField formattedTextFieldResultado;
+    private JLabel labelPeso;
+    private JLabel labelAltura;
+    private JLabel labelResultado;
+    private JLabel imagemIMC;
 
     public CalculadoraIMC() {
         setContentPane(contentPane);
