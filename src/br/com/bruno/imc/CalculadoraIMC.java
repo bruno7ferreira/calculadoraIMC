@@ -56,8 +56,14 @@ public class CalculadoraIMC extends JDialog {
         // acao ao clicar no botao calcular
         try {
             // recebendo o valor de altura
+
+
             double altura = Double.parseDouble(textFieldAltura.getText());
             double peso = Double.parseDouble(textFieldPeso.getText());
+
+            // Convertendo a altura de centímetros para metros
+            altura = altura / 100;
+
             double imc = peso / (altura * altura);
             formattedTextFieldResultado.setText(String.format("%.2f", imc));
 
