@@ -31,7 +31,7 @@ public class CalculadoraIMC extends JDialog {
         buttonLimpar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 onLimpar();
-                onCancel();
+
             }
         });
 
