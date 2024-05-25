@@ -111,6 +111,7 @@ public class CalculadoraIMC extends JDialog {
         textFieldAltura.setText("");
         textFieldPeso.setText("");
         formattedTextFieldResultado.setText("");
+        editorPaneTabelaIMC.setText("");
 
     }
 
