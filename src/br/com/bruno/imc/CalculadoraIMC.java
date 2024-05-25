@@ -9,6 +9,7 @@ public class CalculadoraIMC extends JDialog {
     private JButton buttonCancel;
     private JTextField textField1;
     private JTextField textField2;
+    private JFormattedTextField formattedTextField1;
 
     public CalculadoraIMC() {
         setContentPane(contentPane);
