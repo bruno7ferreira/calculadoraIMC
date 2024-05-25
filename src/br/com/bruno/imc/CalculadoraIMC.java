@@ -5,8 +5,8 @@ import java.awt.event.*;
 
 public class CalculadoraIMC extends JDialog {
     private JPanel contentPane;
-    private JButton buttonOK;
-    private JButton buttonCancel;
+    private JButton buttonCalcular;
+    private JButton buttonLimpar;
     private JTextField textField1;
     private JTextField textField2;
     private JFormattedTextField formattedTextField1;
@@ -14,15 +14,15 @@ public class CalculadoraIMC extends JDialog {
     public CalculadoraIMC() {
         setContentPane(contentPane);
         setModal(true);
-        getRootPane().setDefaultButton(buttonOK);
+        getRootPane().setDefaultButton(buttonCalcular);
 
-        buttonOK.addActionListener(new ActionListener() {
+        buttonCalcular.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 onOK();
             }
         });
 
-        buttonCancel.addActionListener(new ActionListener() {
+        buttonLimpar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 onCancel();
             }
