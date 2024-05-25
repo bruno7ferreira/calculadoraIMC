@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a20927c-f7bc-4e63-b9c1-84a4c3ae1585" name="Changes" comment="Editando componentes">
+    <list default="true" id="2a20927c-f7bc-4e63-b9c1-84a4c3ae1585" name="Changes" comment="Configurando acoes dos botes&#10;&#10;corrindo bug do botao limpar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bruno/imc/CalculadoraIMC.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bruno/imc/CalculadoraIMC.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/bruno/imc/CalculadoraIMC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bruno/imc/CalculadoraIMC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CalculadoraIMC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;295&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CalculadoraIMC.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "369",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\broge\IdeaProjects\calculadora IMC\src\br\com\bruno\imc\imagem" />
@@ -86,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716596597633</updated>
       <workItem from="1716596598782" duration="7797000" />
-      <workItem from="1716650029425" duration="3143000" />
+      <workItem from="1716650029425" duration="5908000" />
     </task>
     <task id="LOCAL-00001" summary="Criando Projeto">
       <option name="closed" value="true" />
@@ -144,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716661497409</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Configurando acoes dos botes">
+      <option name="closed" value="true" />
+      <created>1716663207755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716663207755</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Configurando acoes dos botes&#10;&#10;corrindo bug do botao limpar">
+      <option name="closed" value="true" />
+      <created>1716663369155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716663369155</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +172,8 @@
     <MESSAGE value="Ajustando janela" />
     <MESSAGE value="Concluindo ajuste da janela" />
     <MESSAGE value="Editando componentes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editando componentes" />
+    <MESSAGE value="Configurando acoes dos botes" />
+    <MESSAGE value="Configurando acoes dos botes&#10;&#10;corrindo bug do botao limpar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurando acoes dos botes&#10;&#10;corrindo bug do botao limpar" />
   </component>
 </project>
