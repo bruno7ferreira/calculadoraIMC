@@ -20,14 +20,17 @@ public class CalculadoraIMC extends JDialog {
         setModal(true);
         getRootPane().setDefaultButton(buttonCalcular);
 
+        // inserindo acao no botao calcular
         buttonCalcular.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                onOK();
+                onCalcular();
             }
         });
 
+        // inserindo acao no botao limpar
         buttonLimpar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                onLimpar();
                 onCancel();
             }
         });
@@ -48,13 +51,29 @@ public class CalculadoraIMC extends JDialog {
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
 
-    private void onOK() {
-        // add your code here
-        dispose();
+    private void onCalcular() {
+        // acao ao clicar no botao calcular
+        try {
+            // recebendo o valor de altura
+            double altura = Double.parseDouble(textFieldAltura.getText());
+            double peso = Double.parseDouble(textFieldPeso.getText());
+            double imc = peso / (altura * altura);
+            formattedTextFieldResultado.setText(String.format("%.2f", imc));
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(this, "Por favor, insira valores numéricos válidos para altura e peso.", "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+
+    }
+
+    private void onLimpar() {
+        // acao ao clicar no botao limpar
+        textFieldAltura.setText("");
+        textFieldPeso.setText("");
+        formattedTextFieldResultado.setText("");
+
     }
 
     private void onCancel() {
-        // add your code here if necessary
         dispose();
     }
 
